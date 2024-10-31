@@ -1,1 +1,0 @@
-## Add image files and name them screen-n while n is the integer count of the image in this folder.
