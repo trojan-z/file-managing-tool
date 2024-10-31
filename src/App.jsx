@@ -1,14 +1,19 @@
 import { useState } from 'react'
-
+import { BrowserRouter } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Pages from './pages/Pages'
 import './App.css'
 
 function App() {
  
   return (
     <>
-      <div className='bg-[#1da1f2] text-red text-3xl '>
-        
+    <BrowserRouter>
+    <div className='justify-center items-center p-0 lg:p-5'>
+        <Navbar />
+        <Pages />
        </div>
+    </BrowserRouter>
     </>
   )
 }
