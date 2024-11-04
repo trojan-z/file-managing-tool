@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <div className='justify-center items-center p-0 lg:p-5'>
+    <div className='mx-auto w-full lg:container lg:mx-auto justify-center items-center p-0 lg:p-5'>
         <Navbar />
         <Pages />
        </div>
