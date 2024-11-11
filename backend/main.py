@@ -1,4 +1,7 @@
+
 from typing import Union
+
+import antigravity          # easter egg 🥚💗💓
 
 from fastapi import FastAPI
 
